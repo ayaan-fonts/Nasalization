@@ -5,9 +5,10 @@ https://typodermicfonts.com/nasalization/
 
 @font-face {
   font-family: 'Nasalization';
-	font-style: normal;
+  font-style: normal;
   font-display: swap;
-  src: local('Nasalization'), url('/nasalization-rg.woff2') format('woff2'),
-    local('Nasalization'), url('/nasalization-rg.woff') format('woff'),
-    local('Nasalization'), url('/nasalization-rg.otf') format('opentype');
+  src: local('Nasalization'), url('./woff2/nasalization-rg.woff2') format('woff2'),
+       local('Nasalization'), url('./woff/nasalization-rg.woff') format('woff'),
+       local('Nasalization'), url('../opentype/nasalization-rg.otf') format('opentype'),
+       local('Nasalization'), url('../truetype/nasalization-rg.ttf') format('turetype');
 }
