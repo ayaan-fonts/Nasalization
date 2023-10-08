@@ -1,0 +1,11 @@
+/*
+Copyright (c) Typodermic Fonts Inc, with Reserved Font Name Nasalization.
+https://typodermicfonts.com/nasalization/
+*/
+
+@font-face {
+  font-family: 'Nasalization';
+  font-style: normal;
+  font-display: swap;
+  src: local('Nasalization'), url('./woff2/Nasalization-Regular.woff2') format('woff2'), local('Nasalization'), url('./woff/Nasalization-Regular.woff') format('woff');
+}
